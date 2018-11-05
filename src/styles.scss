@@ -1,1 +1,229 @@
-/* You can add global styles to this file, and also import other style files */
+/*! CSS Used from: https://assets.admin.datocms.com/assets/style.css */
+:focus {
+    outline: 0;
+}
+
+.form__label {
+    display: block;
+    color: #848484;
+    margin-bottom: 6px;
+    margin-bottom: .375rem;
+    position: relative;
+}
+
+.SwitchInput {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.SwitchInput__label {
+    margin-left: 10px;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.SwitchInput__label .form__label {
+    margin-bottom: 0;
+    color: #34363a;
+}
+
+.rc-switch {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 44px;
+    height: 22px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 20px 20px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.35, 0, .25, 1);
+}
+
+.rc-switch-inner {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 24px;
+}
+
+.rc-switch:after {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 2px;
+    top: 1px;
+    border-radius: 50% 50%;
+    background-color: #fff;
+    content: " ";
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    transform: scale(1);
+    transition: left .3s cubic-bezier(.35, 0, .25, 1);
+    animation-timing-function: cubic-bezier(.35, 0, .25, 1);
+    animation-duration: .3s;
+    animation-name: rcSwitchOff;
+}
+
+.rc-switch:hover:after {
+    transform: scale(1.1);
+    animation-name: rcSwitchOn;
+}
+
+.rc-switch-checked {
+    border: 1px solid #87d068;
+    background-color: #87d068;
+    background-color: #70c8dc;
+    background-color: var(--accent-color);
+    border-color: #70c8dc;
+    border-color: var(--accent-color);
+}
+
+.rc-switch-checked .rc-switch-inner {
+    left: 6px;
+}
+
+.rc-switch-checked:after {
+    left: 22px;
+}
+
+/*! CSS Used keyframes */
+@keyframes rcSwitchOff {
+    0% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes rcSwitchOn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*! CSS Used from: https://assets.admin.datocms.com/assets/style.css */
+:focus {
+    outline: 0;
+}
+
+.rc-switch {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 44px;
+    height: 22px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 20px 20px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.35, 0, .25, 1);
+}
+
+.rc-switch-inner {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 24px;
+}
+
+.rc-switch:after {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 2px;
+    top: 1px;
+    border-radius: 50% 50%;
+    background-color: #fff;
+    content: " ";
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    transform: scale(1);
+    transition: left .3s cubic-bezier(.35, 0, .25, 1);
+    animation-timing-function: cubic-bezier(.35, 0, .25, 1);
+    animation-duration: .3s;
+    animation-name: rcSwitchOff;
+}
+
+.rc-switch:hover:after {
+    transform: scale(1.1);
+    animation-name: rcSwitchOn;
+}
+
+.rc-switch-checked {
+    border: 1px solid #87d068;
+    background-color: #87d068;
+    background-color: #70c8dc;
+    background-color: var(--accent-color);
+    border-color: #70c8dc;
+    border-color: var(--accent-color);
+}
+
+.rc-switch-checked .rc-switch-inner {
+    left: 6px;
+}
+
+.rc-switch-checked:after {
+    left: 22px;
+}
+
+/*! CSS Used keyframes */
+@keyframes rcSwitchOff {
+    0% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes rcSwitchOn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*! CSS Used from: https://assets.admin.datocms.com/assets/style.css */
+:focus {
+    outline: 0;
+}
+
+.form__label {
+    display: block;
+    color: #848484;
+    margin-bottom: 6px;
+    margin-bottom: .375rem;
+    position: relative;
+}
+
+.SwitchInput__label {
+    margin-left: 10px;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.SwitchInput__label .form__label {
+    margin-bottom: 0;
+    color: #34363a;
+}
