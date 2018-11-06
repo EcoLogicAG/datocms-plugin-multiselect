@@ -1,6 +1,6 @@
 {
     "name": "@ecologic/datocms-plugin-multiselect",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "homepage": "https://github.com/EcoLogicAG/datocms-plugin-multiselect",
     "description": "A plugin that transforms a JSON field to a Multi-Select Input Field",
     "keywords": [
@@ -38,7 +38,7 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build --prod --configuration production --output-path dist",
+        "build": "ng build --prod --configuration production --base-href https://unpkg.com/@ecologic/datocms-plugin-multiselect@0.0.4/dist/ --output-path dist",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"

@@ -23,5 +23,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Build
 
-Run `ng build --prod --configuration production --output-path dist` to build into `dist`
+Run `npm run build` to build into `dist`
 
