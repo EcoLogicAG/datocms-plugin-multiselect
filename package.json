@@ -6,7 +6,7 @@
     "keywords": ["datocms-plugin","multiselect"],
     "datoCmsPlugin": {
         "title": "Multiselect Plugin",
-        "previewImage": "docs/editor.png",
+        "previewImage": "doc/editor.png",
         "entryPoint": "dist/index.html",
         "fieldTypes": ["json"],
         "pluginType": "field_editor",
