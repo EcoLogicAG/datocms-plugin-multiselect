@@ -1,6 +1,6 @@
 {
     "name": "@ecologic/datocms-plugin-multiselect",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/EcoLogicAG/datocms-plugin-multiselect",
     "description": "A plugin that transforms a JSON field to a Multi-Select Input Field",
     "keywords": ["datocms-plugin","multiselect"],
