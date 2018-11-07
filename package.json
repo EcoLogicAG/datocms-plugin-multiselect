@@ -38,7 +38,7 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build --prod --configuration production --base-href https://unpkg.com/@ecologic/datocms-plugin-multiselect@0.0.7/dist/ --output-path dist",
+        "build": "ng build --prod --configuration production --base-href https://unpkg.com/@ecologic/datocms-plugin-multiselect@$npm_package_version/dist/ --output-path dist",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"
