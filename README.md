@@ -12,7 +12,7 @@ Please provide the possible values in the plugin configuration (per field):
 
 ```$json
 [
-    { "key": "a_key", "value": "Displayed value" }
+    { "key": "a_key", "value": "Displayed value" },
     { "key": "another_key", "value": "Displayed value" }
 ]
 ```
