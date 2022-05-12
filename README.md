@@ -1,3 +1,5 @@
+**This repository is not mantained anymore!**
+
 # DatoCMS Multiselect Plugin
 
 ## Screenshot
